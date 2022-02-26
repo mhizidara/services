@@ -546,35 +546,7 @@ input[type='button'] {
     /* form{
   margin-top: .3px;
 } */
-    .network {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-    }
-    .network p {
-        font-size: 8px;
-        text-align: left;
-        margin-left: 30px;
-        margin-top: -30px;
-    }
-    .network img {
-        width: 4vh;
-        height: 4vh;
-    }
-    .network img.charac {
-        width: 4vh;
-        height: 4vh;
-    }
-    .ongoingcheck {
-        font-size: 12px;
-        font-weight: 600;
-        padding-top: 20px;
-        padding-left: 30px;
-    }
-    .ongoingcheck span {
-        font-size: 10px;
-        font-weight: 300;
-    }
+    
     .destinations {
         display: flex;
         flex-direction: column;
