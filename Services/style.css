@@ -30,14 +30,15 @@ body {
  height: 800px;
  margin-left: 10px;
  margin-right: 10px;
-}
+}*/
 
 .content{
  text-align: center;
  margin-top: 60px;
  font-size: 25px;
  padding: 30px;
-}*/
+ color:black
+}
 
 
 /*.box{
@@ -215,7 +216,7 @@ input[type=date] {
   display: flex;
   flex-direction: row;
   margin-top: 20px;
-}
+}*/
 
 .network{
  display: flex;
@@ -251,7 +252,7 @@ input[type=date] {
   font-size: 15px;
   font-weight: 300;
  }
-
+/*
  .searchbtn{
    width: 20%;
    border-radius: 10px;
@@ -431,10 +432,10 @@ a{
 }
 
 .update {
-    font-size: 15px;
+    font-size: 25px;
     text-align: left;
     margin-left: 20px;
-    margin-top: 35px;
+    margin-top: 40px;
 }
 
 .update {
@@ -444,6 +445,7 @@ a{
 
 .wave-desc {
     display: flex;
+    margin-top: 50px;
 }
 
 .image {
@@ -490,6 +492,7 @@ a {
     padding-top: 25px;
     padding: -30px;
     margin-bottom: 50px;
+    margin-top: 50px;
 }
 
 .getflights {
@@ -512,6 +515,7 @@ input[type='email'] {
     border-radius: 10px;
     justify-content: center;
     outline: none;
+    margin-top: 10px;
 }
 
 input[type='button'] {
@@ -529,30 +533,55 @@ input[type='button'] {
     body {
         width: 100%;
     }
+    
     .content {
         font-size: 10px;
         margin-top: -20px;
+        color: #000;
     }
-    .bg {
-        margin-top: -120px;
-        font-size: small;
-        height: 22vh;
-        width: 40vh;
-    }
-    .input[type='text'] {
-        width: 1px;
-        padding: 1px 1px;
-    }
-    /* form{
-  margin-top: .3px;
-} */
+    .network{
+        display: flex;
+        flex-direction: column;
+       }
+
+    .network img{
+ height: 50px;
+ width: 50px;
+}
+
+.network img.charac{
+ height: 50px;
+ width: 50px;
+}
+
+.network p{
+ margin-top: -50px;
+ margin-left: 60px;
+ font-size: 10px;
+ text-align:left;
+}
+
+ .ongoingcheck{
+  font-size: 15px;
+  font-weight: 600;
+  padding-top: 30px;
+  padding-left: 40px;
+ }
+
+ .ongoingcheck span{
+  font-size: 10px;
+  font-weight: 300;
+ }
+    
+    
     
     .destinations {
         display: flex;
         flex-direction: column;
+        justify-content: space-between;
     }
     .paris img {
-        width: 49vh;
+        width: 44vh;
         height: 30vh;
     }
     .air {
@@ -574,10 +603,135 @@ input[type='button'] {
         height: 5vh;
         margin-left: 20px;
     }
+    .des img{
+        width: 5vh;
+        height: 5vh;
+        margin-left:20px ;
+    }
     .dep {
         font-family: 'Poppins', sans-serif;
         font-size: 8px;
         margin-left: 20px;
         margin-top: 10px;
+    }
+    .price{
+        margin-bottom: -20px;
+    }
+
+    .canada img {
+        width: 44vh;
+        height: 30vh;
+    }
+    
+    .ca {
+        text-align: left;
+        margin-left: 20px;
+        margin-top: 90px;
+        padding-top: 15px;
+        font-size: 15px;
+        font-weight: 600;
+    }
+    
+    .ca-desc {
+        display: flex;
+    }
+    
+    .ca-desc img {
+        width: 5vh;
+        height: 5vh;
+        margin-left: 10px;
+    }
+    
+    .ca-des {
+        display: flex;
+    }
+    
+    .ca-des img {
+        width: 5vh;
+        height: 5vh;
+        margin-left: 10px;
+    }
+    
+    .capetown img {
+        width: 44vh;
+        height: 30vh;
+    }
+    
+    .cap {
+        text-align: left;
+        margin-left: 20px;
+        margin-top: 90px;
+        font-size: 15px;
+        font-weight: 600;
+    }
+    
+    .cap-desc img {
+        width: 5vh;
+        height: 5vh;
+    }
+    
+    .cap-des img {
+        width: 5vh;
+        height: 5vh;
+    }
+
+    .dep1{
+        font-size: 8px;
+        margin-top: 2px;
+    }
+    .viewflights{
+        justify-content: right;
+        margin-top: 30px;
+    }
+
+    .wave {
+        width: 50vh;
+        height: 150vh;
+    
+    }
+    
+    .image {
+        width: 8vh;
+        height: 8vh;
+        margin-left: 6px;
+    }
+    
+    .update {
+        font-size: 15px;
+        text-align: left;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    
+    .update {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    
+    
+    span {
+        font-size: 12px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 300;
+    }
+    
+    .visa{
+        justify-content: center;
+        margin-left: 35px;
+        width: 90%;
+    }
+    input[type='email'] {
+        width: 80%;
+        margin-left: 25px;
+        margin-top: 20px;
+        justify-content: center;
+
+    }
+    
+    input[type='button'] {
+        margin-left: 30px;
+        width: 30%;
+        margin-top: 8px;
     }
 }
