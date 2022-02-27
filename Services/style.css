@@ -421,7 +421,7 @@ a{
     background-repeat: no-repeat;
     background-size: cover;
     object-fit: cover;
-    width: 1349px;
+    width: 1330px;
     height: 1100px;
     position: relative;
 }
@@ -435,7 +435,6 @@ a{
     font-size: 25px;
     text-align: left;
     margin-left: 20px;
-    margin-top: 40px;
 }
 
 .update {
@@ -445,7 +444,6 @@ a{
 
 .wave-desc {
     display: flex;
-    margin-top: 50px;
 }
 
 .image {
@@ -453,7 +451,7 @@ a{
 }
 
 span {
-    font-size: 17px;
+    font-size: 15px;
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
 }
